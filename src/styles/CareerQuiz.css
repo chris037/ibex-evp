@@ -1,0 +1,133 @@
+/* Main Container */
+.career-quiz-container {
+  margin: auto;
+  padding: 20px;
+  color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  position: relative;
+  margin-top: 150px;
+}
+
+/* Title and Hero Header */
+.quiz-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.quiz-hero {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+/* Question Text */
+.quiz-question {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Quiz Options */
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.quiz-option {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quiz-option:hover {
+  background-color: #eabc02;
+}
+
+/* Result Section */
+.quiz-result {
+  text-align: center;
+}
+
+.result-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+/* Hero Image */
+.quiz-hero-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+/* Result Image */
+.result-hero-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+/* Result Title */
+.result-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffcc00;
+  text-align: center;
+}
+
+/* Result Description */
+.result-text {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Progress Bar */
+.quiz-progress {
+  font-size: 16px;
+  font-weight: bold;
+  color: #EEE;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Back to Home Button */
+.back-home-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-home-button:hover {
+  background-color: #ffcc00;
+}
+

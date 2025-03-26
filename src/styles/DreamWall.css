@@ -1,0 +1,101 @@
+/* Main Container */
+.dreamwall-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  /* background: url('/bg.jpg') no-repeat center center/cover; */
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  margin-top: 150px;
+
+}
+
+/* Upload Section (Sticky at the Top) */
+.upload-section {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.upload-section h2 {
+  margin-bottom: 15px;
+}
+
+.upload-section form input,
+.upload-section form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.upload-section form input[type="file"] {
+  background-color: #2a2a2a;
+}
+
+.upload-section form .submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-section form .submit-button:hover {
+  background-color: #e6b800;
+}
+
+/* Scrollable Feed Section */
+.feed-section {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.feed-section h2 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.feed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feed-item {
+  background: #2a2a2a;
+  padding: 15px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.feed-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.feed-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.feed-item p {
+  font-size: 14px;
+  color: #ccc;
+}

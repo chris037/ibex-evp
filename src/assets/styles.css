@@ -1,0 +1,8 @@
+/* styles.css */
+.background {
+    background-image: url('/background.jpg'); /* If inside public folder */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  

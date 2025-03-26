@@ -1,0 +1,94 @@
+/* Social Page Container */
+.social-container {
+    margin: auto;
+    padding: 20px;
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    position: relative;
+    margin-top: 120px;
+}
+
+.social-container h1 {
+    font-size: 2.2em;
+    line-height: 1.1;
+    margin-bottom: 32px;
+}
+
+.social-container p{
+    padding-bottom: 8px;
+}
+
+
+/* Form Styling */
+.social-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    margin: 32px auto;
+}
+
+/* Labels */
+.upload-label,
+.post-label {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+/* Input Fields */
+input[type="file"],
+input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+/* Photo Preview */
+.photo-preview {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Submit Button */
+.submit-button {
+    background: #ffcc00;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 0 !important;
+}
+
+.submit-button:hover {
+    background: #ffbb00;
+}
+
+/* Success Message */
+.success-message {
+    font-size: 18px;
+    color: #00ff00;
+    font-weight: bold;
+}

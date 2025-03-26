@@ -1,0 +1,123 @@
+/* Main Container */
+.evp-video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  /* background: url('/bg.jpg') no-repeat center center/cover; */
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  margin-top: 150px;
+}
+
+/* Back Button */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.back-icon {
+  font-size: 22px;
+}
+
+/* Title Styling */
+.evp-video-title {
+  font-size: 22px;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 40px;
+  position: relative;
+}
+
+.evp-video-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: #ff0080;
+  margin: 5px auto 10px;
+}
+
+/* Orientation Alert */
+.orientation-alert {
+  background-color: #ff1744;
+  color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  animation: shake 0.5s infinite;
+}
+
+/* Shake Animation */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+/* Video Wrapper */
+.video-wrapper {
+  width: 100%;
+  max-width: 320px;
+  margin: 20px 0;
+}
+
+.evp-video {
+  width: 100%;
+  height: 180px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Description Section */
+.evp-video-description {
+  width: 90%;
+  max-width: 320px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.evp-video-description h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.evp-video-description p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+/* Done Watching Button */
+.done-watching-button {
+  background: #ffcc00;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.done-watching-button:hover:not(:disabled) {
+  background: #ffbb00;
+}
+
+.done-watching-button:disabled {
+  background: #a5a5a5;
+  cursor: not-allowed;
+}

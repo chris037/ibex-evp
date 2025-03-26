@@ -1,0 +1,44 @@
+.evp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw; /* Make sure it doesn't exceed screen width */
+    background: url('/bg.jpg') no-repeat center center/cover;
+    padding: 10px;
+    padding-top: 50px;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+  .evp-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .evp-heading {
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .evp-button {
+    background: #ffcc00;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .evp-button:hover {
+    background: #ffbb00;
+  }
+  
+  
